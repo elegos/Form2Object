@@ -21,3 +21,5 @@ The `name` attribute must be set according to the object's path, for example `fi
 The function allows arrays, too. The only requirement is that indexes must be specified. There is no array nesting limit. For example: `arrVarOne[3].secondLevelVar.arrVarTwo[6].myVar`. Another example: `firstLevelVar.arrVarOne[0].myVar[3]`.
 
 **Attention**: this is an **INVALID** name attribute (due to the lacking of array index): `a[].b.c`.
+
+To call the function simply call `[window].Form2Object(myContainerElement)`.
